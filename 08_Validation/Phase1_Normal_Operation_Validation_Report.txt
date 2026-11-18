@@ -1,0 +1,20 @@
+PHASE VALIDATION REPORT
+===============================
+
+Phase: Phase1_Normal_Operation
+Generated: 2026-11-17 22:11:29
+Status: PRELIMINARY - ELECTRICAL VALIDATION PENDING
+
+Dataset integrity:
+NaN count: 0
+Inf count: 0
+Sample count: 20001
+
+Waveform figures verified: 8 of 8
+
+OPEN ENGINEERING ISSUE:
+Propagation speed warning: 316228 km/s.
+The stated limit is 300000 km/s.
+Further investigation is required.
+
+This report does not declare the model electrically validated.

@@ -1,0 +1,21 @@
+132 kV TRANSMISSION LINE - PHASE 1
+NORMAL OPERATION VALIDATION REPORT
+
+Simulation duration: 0.4 seconds
+Sample time: 20 microseconds
+Number of samples: 20001
+
+SENDING-END VOLTAGE RMS (V)
+   74697.287    74702.579    74703.155
+
+SENDING-END CURRENT RMS (A)
+     210.571      210.577      210.589
+
+RECEIVING-END VOLTAGE RMS (V)
+   72036.112    72040.538    72042.132
+
+RECEIVING-END CURRENT RMS (A)
+     217.598      217.601      217.616
+
+NaN and Inf validation: PASSED
+Propagation-speed warning: REQUIRES INVESTIGATION

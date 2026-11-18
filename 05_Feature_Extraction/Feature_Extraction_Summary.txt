@@ -1,0 +1,81 @@
+TRANSMISSION LINE FAULT FEATURE EXTRACTION
+==========================================
+
+Total windows: 122
+Features per window: 60
+
+CLASS DISTRIBUTION
+------------------
+Normal: 37 windows
+LG: 17 windows
+LL: 17 windows
+LLG: 17 windows
+LLL: 17 windows
+LLLG: 17 windows
+
+FEATURE NAMES
+-------------
+Vabc_S_A_RMS
+Vabc_S_A_MeanAbs
+Vabc_S_A_Std
+Vabc_S_A_PeakAbs
+Vabc_S_A_PeakToPeak
+Vabc_S_B_RMS
+Vabc_S_B_MeanAbs
+Vabc_S_B_Std
+Vabc_S_B_PeakAbs
+Vabc_S_B_PeakToPeak
+Vabc_S_C_RMS
+Vabc_S_C_MeanAbs
+Vabc_S_C_Std
+Vabc_S_C_PeakAbs
+Vabc_S_C_PeakToPeak
+Iabc_S_A_RMS
+Iabc_S_A_MeanAbs
+Iabc_S_A_Std
+Iabc_S_A_PeakAbs
+Iabc_S_A_PeakToPeak
+Iabc_S_B_RMS
+Iabc_S_B_MeanAbs
+Iabc_S_B_Std
+Iabc_S_B_PeakAbs
+Iabc_S_B_PeakToPeak
+Iabc_S_C_RMS
+Iabc_S_C_MeanAbs
+Iabc_S_C_Std
+Iabc_S_C_PeakAbs
+Iabc_S_C_PeakToPeak
+Vabc_R_A_RMS
+Vabc_R_A_MeanAbs
+Vabc_R_A_Std
+Vabc_R_A_PeakAbs
+Vabc_R_A_PeakToPeak
+Vabc_R_B_RMS
+Vabc_R_B_MeanAbs
+Vabc_R_B_Std
+Vabc_R_B_PeakAbs
+Vabc_R_B_PeakToPeak
+Vabc_R_C_RMS
+Vabc_R_C_MeanAbs
+Vabc_R_C_Std
+Vabc_R_C_PeakAbs
+Vabc_R_C_PeakToPeak
+Iabc_R_A_RMS
+Iabc_R_A_MeanAbs
+Iabc_R_A_Std
+Iabc_R_A_PeakAbs
+Iabc_R_A_PeakToPeak
+Iabc_R_B_RMS
+Iabc_R_B_MeanAbs
+Iabc_R_B_Std
+Iabc_R_B_PeakAbs
+Iabc_R_B_PeakToPeak
+Iabc_R_C_RMS
+Iabc_R_C_MeanAbs
+Iabc_R_C_Std
+Iabc_R_C_PeakAbs
+Iabc_R_C_PeakToPeak
+
+OUTPUT FILES
+D:\MATLAB_Projects\TL_Fault_AI\05_Feature_Extraction\Transmission_Line_Fault_Feature_Dataset.mat
+D:\MATLAB_Projects\TL_Fault_AI\05_Feature_Extraction\Transmission_Line_Fault_Feature_Dataset.csv

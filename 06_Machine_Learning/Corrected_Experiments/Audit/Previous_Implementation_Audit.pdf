@@ -1,0 +1,70 @@
+PHASE 1: FORENSIC AUDIT OF PREVIOUS IMPLEMENTATION REPORT
+==============================
+
+PROJECT: AI-Assisted Transmission-Line Fault Detection
+ROOT: D:\MATLAB_Projects\TL_Fault_AI
+
+1. NUMERICAL CONTRADICTIONS IDENTIFIED:
+
+1.1 Test-set Inconsistency:
+- Previous report states: Test windows = 547, Test groups = 31, Normal support = 102, LG support = 102, LL support = 102, LLG support = 102, Three_Phase_Fault support = 0
+- Actual verified: Test windows = 547, Test groups = 31, Normal support = 37, LG support = 102, LL support = 102, LLG support = 102, Three_Phase_Fault support = 204 (153 LLL + 51 LLLG)
+- Displayed confusion matrix sums to 343, not 547
+- Normal support in matrix (37) matches actual, but LG/LL/LLG shown as 102 (only 4 classes evaluated)
+
+1.2 Class Mapping Issue:
+- Dataset has 6 original classes: Normal, LG, LL, LLG, LLL, LLLG
+- Split uses 5-class mapping: classOrder = Normal, LG, LL, LLG, Three_Phase_Fault
+- Mapping: LLL + LLLG -> Three_Phase_Fault
+- Previous report showed Three_Phase_Fault support = 0, which is incorrect
+
+2. CONFUSION MATRIX DISCREPANCY:
+
+- Displayed matrix:
+  Normal LG LL LLG Three_Phase_Fault
+  Normal 37  0  0  0  0
+  LG      0 102  0  0  0
+  LL      0   0 102  0  0
+  LLG     0   0  0 102  0
+  Three_Phase_Fault 0  0  0  0  0
+- Matrix sums to 343 (37+102+102+102), not 547
+- Three_Phase_Fault class completely absent from matrix
+- Correct matrix should include 204 Three_Phase_Fault test samples
+
+3. 100% ACCURACY CLAIM EVALUATION:
+
+- Previous report: Bagged Trees and Gaussian SVM achieved 100% reported nominal test accuracy
+- Actual: 100% accuracy only over 4 classes (Normal, LG, LL, LLG)
+- Three_Phase_Fault test samples (204) were excluded
+- 100% over 4 classes is not 100% five-class performance
+
+4. SPLIT VALIDITY:
+
+- Group-disjoint split: VERIFIED - no group appears in multiple partitions
+- Every row assigned exactly once: VERIFIED (2480 total)
+- All 5 classes represented in all partitions where group availability permits
+- Training: 83 groups, 1471 windows
+- Validation: 26 groups, 462 windows
+- Testing: 31 groups, 547 windows
+
+5. CORRECTED METRICS:
+
+- Total test windows: 547
+- Test groups: 31 (group-disjoint)
+- Per-class support (5-class mapping): Normal=37, LG=102, LL=102, LLG=102, Three_Phase_Fault=204
+- Confusion matrix total must equal 547
+- Macro-F1 over classes with actual test support
+- Fixed five-class Macro-F1 with zero-support convention
+
+6. METRICS THAT MUST NO LONGER BE QUOTED:
+- 100% nominal test accuracy (only over 4 classes)
+- Three_Phase_Fault support = 0 (incorrect)
+- Confusion matrix summing to 343
+
+7. VERIFIED METRICS:
+- Total test windows: 547
+- Test groups: 31 (group-disjoint)
+- Per-class support: Normal=37, LG=102, LL=102, LLG=102, Three_Phase_Fault=204
+- Confusion matrix total: 547
+- Class order: Normal, LG, LL, LLG, Three_Phase_Fault
+

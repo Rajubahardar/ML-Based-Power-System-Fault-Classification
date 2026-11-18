@@ -1,0 +1,132 @@
+﻿# ==========================================
+# MATLAB temporary and generated files
+# ==========================================
+*.asv
+*.m~
+*.autosave
+*.mex*
+*.p
+*.log
+*.tmp
+*.bak
+*.orig
+*.slxc
+*.autosave
+
+# MATLAB and Simulink generated folders
+slprj/
+codegen/
+cache/
+*_ert_rtw/
+*_grt_rtw/
+*_slrt_rtw/
+
+# ==========================================
+# Generated datasets and trained model files
+# ==========================================
+*.mat
+
+# MATLAB figure files
+*.fig
+
+# ==========================================
+# Backups and generated results
+# ==========================================
+11_Backups/
+04_Results/
+
+# ==========================================
+# Generated reports and temporary documents
+# ==========================================
+*.aux
+*.out
+*.toc
+*.synctex.gz
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# ==========================================
+# Operating system and editor files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ==========================================
+# Python files (if used for supporting scripts)
+# ==========================================
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ==========================================
+# Temporary text files
+# ==========================================
+eol.txt
+fixline.txt
+
+# ==========================================
+# Markdown documentation (except README files)
+# ==========================================
+*.md
+!README.md
+
+# ==========================================
+# Dataset and generated data files
+# ==========================================
+*.mat
+*.csv
+*.parquet
+*.h5
+*.hdf5
+
+# Generated dataset directories
+datasets/
+Datasets/
+generated_data/
+
+# Intermediate and generated project outputs
+05_Feature_Extraction/Audit_Results/
+05_Feature_Extraction/OneMillion_Dataset/
+05_Feature_Extraction/Synthetic_Illustrative_Results/
+
+06_Machine_Learning/Corrected_Experiments/Figures/
+06_Machine_Learning/Corrected_Experiments/Audit/
+06_Machine_Learning/Noise_Robustness_Results/
+06_Machine_Learning/RLC_Parameter_Variation_Results/
+06_Machine_Learning/Unseen_Location_Results/
+06_Machine_Learning/result/
+
+06_Machine_Learning/Unseen_Resistance_*.png
+06_Machine_Learning/SVM_Confusion_Matrix.png
+
+07_Experiments/Experiment_Results/
+08_Validation/
+10_Documentation/Figures/
+
+# Generated spreadsheets
+*.xlsx
+
+# Intermediate text reports
+05_Feature_Extraction/Audit_Summary.txt
+05_Feature_Extraction/Fault_Configuration_Inspection.txt
+05_Feature_Extraction/Feature_Extraction_Summary.txt
+# ==========================================
+# # Five-class scatter plot exception
+# (Synthetic_Illustrative_Results dir excluded, but scatter plot preserved)
+# ==========================================
+!05_Feature_Extraction/Synthetic_Illustrative_Results/five_class_scatter.png
+
+# ==========================================
+# # Final delivery figures must not be ignored
+# ==========================================
+!08_Final_Delivery/Figures/
+
+# ==========================================
+# # Additional dataset file exclusions
+# ==========================================
+!05_Feature_Extraction/Five_Class_Scatter_Plot.png

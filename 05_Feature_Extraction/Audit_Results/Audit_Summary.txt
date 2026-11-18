@@ -1,0 +1,12 @@
+FEATURE LEAKAGE AUDIT - STEP 2
+
+Rows: 2480
+Features: 60
+Classes: 6
+Scenario groups: 140
+Maximum X/table feature difference: 0
+Exact cross-group duplicate patterns: 0
+Near cross-group duplicate patterns: 458
+Groups with multiple labels: 0
+Groups with multiple scenario IDs: 0
+Normal unique feature rows: 185

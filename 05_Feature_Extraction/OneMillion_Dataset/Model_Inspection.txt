@@ -1,0 +1,1194 @@
+FAULT BLOCKS:
+1. Transmission_Line_132kV_Phase1/Three-Phase Fault
+Parameters: InitialStates, FaultA, FaultB, FaultC, GroundFault, SwitchTimes, External, SwitchStatus, FaultResistance, GroundResistance, SnubberResistance, SnubberCapacitance, Measurements
+  InitialStates = 0
+  FaultA = on
+  FaultB = on
+  FaultC = on
+  GroundFault = on
+  SwitchTimes = [0.10 0.20]
+  External = off
+  SwitchStatus = NaN
+  FaultResistance = 0.001
+  GroundResistance = 0.001
+  SnubberResistance = 1e6
+  SnubberCapacitance = inf
+  Measurements = None
+2. Transmission_Line_132kV_Phase1/Three-Phase Fault/C4
+Parameters: Value, VectorParams1D, OutMin, OutMax, OutDataTypeStr, LockScale, SampleTime, FramePeriod
+  Value = External
+  VectorParams1D = on
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: Inherit from 'Constant value'
+  LockScale = off
+  SampleTime = inf
+  FramePeriod = inf
+3. Transmission_Line_132kV_Phase1/Three-Phase Fault/Constant1
+Parameters: Value, VectorParams1D, OutMin, OutMax, OutDataTypeStr, LockScale, SampleTime, FramePeriod
+  Value = FaultA
+  VectorParams1D = on
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: Inherit from 'Constant value'
+  LockScale = off
+  SampleTime = inf
+  FramePeriod = inf
+4. Transmission_Line_132kV_Phase1/Three-Phase Fault/Constant2
+Parameters: Value, VectorParams1D, OutMin, OutMax, OutDataTypeStr, LockScale, SampleTime, FramePeriod
+  Value = FaultB
+  VectorParams1D = on
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: Inherit from 'Constant value'
+  LockScale = off
+  SampleTime = inf
+  FramePeriod = inf
+5. Transmission_Line_132kV_Phase1/Three-Phase Fault/Constant3
+Parameters: Value, VectorParams1D, OutMin, OutMax, OutDataTypeStr, LockScale, SampleTime, FramePeriod
+  Value = FaultC
+  VectorParams1D = on
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: Inherit from 'Constant value'
+  LockScale = off
+  SampleTime = inf
+  FramePeriod = inf
+6. Transmission_Line_132kV_Phase1/Three-Phase Fault/Data Type 
+Conversion
+Parameters: OutMin, OutMax, OutDataTypeStr, LockScale, ConvertRealWorld, RndMeth, SaturateOnIntegerOverflow, SampleTime
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = boolean
+  LockScale = off
+  ConvertRealWorld = Real World Value (RWV)
+  RndMeth = Zero
+  SaturateOnIntegerOverflow = on
+  SampleTime = -1
+7. Transmission_Line_132kV_Phase1/Three-Phase Fault/Data Type 
+Conversion1
+Parameters: OutMin, OutMax, OutDataTypeStr, LockScale, ConvertRealWorld, RndMeth, SaturateOnIntegerOverflow, SampleTime
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = boolean
+  LockScale = off
+  ConvertRealWorld = Real World Value (RWV)
+  RndMeth = Zero
+  SaturateOnIntegerOverflow = on
+  SampleTime = -1
+8. Transmission_Line_132kV_Phase1/Three-Phase Fault/Data Type 
+Conversion2
+Parameters: OutMin, OutMax, OutDataTypeStr, LockScale, ConvertRealWorld, RndMeth, SaturateOnIntegerOverflow, SampleTime
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = boolean
+  LockScale = off
+  ConvertRealWorld = Real World Value (RWV)
+  RndMeth = Zero
+  SaturateOnIntegerOverflow = on
+  SampleTime = -1
+9. Transmission_Line_132kV_Phase1/Three-Phase Fault/Data Type 
+Conversion3
+Parameters: OutMin, OutMax, OutDataTypeStr, LockScale, ConvertRealWorld, RndMeth, SaturateOnIntegerOverflow, SampleTime
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = boolean
+  LockScale = off
+  ConvertRealWorld = Real World Value (RWV)
+  RndMeth = Zero
+  SaturateOnIntegerOverflow = on
+  SampleTime = -1
+10. Transmission_Line_132kV_Phase1/Three-Phase Fault/Data Type 
+Conversion4
+Parameters: OutMin, OutMax, OutDataTypeStr, LockScale, ConvertRealWorld, RndMeth, SaturateOnIntegerOverflow, SampleTime
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = double
+  LockScale = off
+  ConvertRealWorld = Real World Value (RWV)
+  RndMeth = Zero
+  SaturateOnIntegerOverflow = on
+  SampleTime = -1
+11. Transmission_Line_132kV_Phase1/Three-Phase Fault/Data Type 
+Conversion5
+Parameters: OutMin, OutMax, OutDataTypeStr, LockScale, ConvertRealWorld, RndMeth, SaturateOnIntegerOverflow, SampleTime
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = double
+  LockScale = off
+  ConvertRealWorld = Real World Value (RWV)
+  RndMeth = Zero
+  SaturateOnIntegerOverflow = on
+  SampleTime = -1
+12. Transmission_Line_132kV_Phase1/Three-Phase Fault/Data Type 
+Conversion6
+Parameters: OutMin, OutMax, OutDataTypeStr, LockScale, ConvertRealWorld, RndMeth, SaturateOnIntegerOverflow, SampleTime
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = double
+  LockScale = off
+  ConvertRealWorld = Real World Value (RWV)
+  RndMeth = Zero
+  SaturateOnIntegerOverflow = on
+  SampleTime = -1
+13. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A
+Parameters: InitialState, SwitchingTimes, External, BreakerResistance, SnubberResistance, SnubberCapacitance, Measurements, MoreParameters, NoBreakLoop
+  InitialState = InitialStates(1)*FaultA
+  SwitchingTimes = [ 1/60  5/60 ]
+  External = on
+  BreakerResistance = FaultResistance
+  SnubberResistance = SnubberResistance
+  SnubberCapacitance = SnubberCapacitance
+  Measurements = None
+  MoreParameters = off
+  NoBreakLoop = off
+14. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/c
+Parameters: Port, IconDisplay, OutputFunctionCall, OutMin, OutMax, OutDataTypeStr, LockScale, BusOutputAsStruct, BusVirtuality, Unit, PortDimensions, VarSizeSig, SampleTime, SignalType, LatchByDelayingOutsideSignal, LatchInputForFeedbackSignals, Interpolate, InputConnect, DataMode, MessageQueueUseDefaultAttributes, MessageQueueCapacity, MessageQueueType, MessageQueueOverwriting, EventTriggers
+  Port = 1
+  IconDisplay = Port number
+  OutputFunctionCall = off
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: auto
+  LockScale = off
+  BusOutputAsStruct = off
+  BusVirtuality = inherit
+  Unit = inherit
+  PortDimensions = -1
+  VarSizeSig = Inherit
+  SampleTime = -1
+  SignalType = auto
+  LatchByDelayingOutsideSignal = off
+  LatchInputForFeedbackSignals = off
+  Interpolate = on
+  InputConnect = 
+  DataMode = inherit
+  MessageQueueUseDefaultAttributes = on
+  MessageQueueCapacity = 1
+  MessageQueueType = LIFO
+  MessageQueueOverwriting = on
+  EventTriggers = 
+15. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/Breaker
+Parameters: PhysicalDomain, SubClassName, LeftPortType, RightPortType
+  PhysicalDomain = powersysdomain
+  SubClassName = unknown
+  LeftPortType = p1
+  RightPortType = p1
+16. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/Goto
+Parameters: GotoTag, IconDisplay, TagVisibility
+  GotoTag = T61_5597_5727998183858
+  IconDisplay = Tag
+  TagVisibility = global
+17. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/ITAIL
+18. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/Model
+Parameters: ShowPortLabels, BlockChoice, TemplateBlock, MemberBlocks, Permissions, ErrorFcn, PermitHierarchicalResolution, TreatAsAtomicUnit, ShowSubsystemReinitializePorts, MinAlgLoopOccurrences, ScheduleAs, PartitionName, SystemSampleTime, SetExecutionDomain, ExecutionDomainType, RTWSystemCode, RTWFcnNameOpts, RTWFcnName, RTWFileNameOpts, RTWFileName, FunctionInterfaceSpec, FunctionWithSeparateData, RTWMemSecFuncInitTerm, RTWMemSecFuncExecute, RTWMemSecDataConstants, RTWMemSecDataInternal, RTWMemSecDataParameters, IsSubsystemVirtual, Variant, VariantChoicesSpecifier, VariantChoicesEnumeration, VariantControlVariable, VariantChoices, VariantControlMode, VariantControl, LabelModeActiveChoice, VariantActivationTime, AllowZeroVariantControls, PropagateVariantConditions, AllowFlexibleInterface, TreatAsGroupedWhenPropagatingVariantConditions, ReferencedSubsystem, Latency, AutoFrameSizeCalculation
+  ShowPortLabels = FromPortIcon
+  BlockChoice = 
+  TemplateBlock = 
+  MemberBlocks = 
+  Permissions = ReadWrite
+  ErrorFcn = 
+  PermitHierarchicalResolution = All
+  TreatAsAtomicUnit = off
+  ShowSubsystemReinitializePorts = off
+  MinAlgLoopOccurrences = off
+  ScheduleAs = Sample time
+  PartitionName = 
+  SystemSampleTime = -1
+  SetExecutionDomain = off
+  ExecutionDomainType = Deduce
+  RTWSystemCode = Auto
+  RTWFcnNameOpts = Auto
+  RTWFcnName = 
+  RTWFileNameOpts = Auto
+  RTWFileName = 
+  FunctionInterfaceSpec = void_void
+  FunctionWithSeparateData = off
+  RTWMemSecFuncInitTerm = Inherit from model
+  RTWMemSecFuncExecute = Inherit from model
+  RTWMemSecDataConstants = Inherit from model
+  RTWMemSecDataInternal = Inherit from model
+  RTWMemSecDataParameters = Inherit from model
+  IsSubsystemVirtual = on
+  Variant = off
+  VariantChoicesSpecifier = 
+  VariantChoicesEnumeration = 
+  VariantControlVariable = 
+  VariantChoices = 
+  VariantControlMode = expression
+  VariantControl = 
+  LabelModeActiveChoice = 
+  VariantActivationTime = update diagram
+  AllowZeroVariantControls = off
+  PropagateVariantConditions = off
+  AllowFlexibleInterface = on
+  TreatAsGroupedWhenPropagatingVariantConditions = on
+  ReferencedSubsystem = 
+  Latency = 0
+  AutoFrameSizeCalculation = off
+19. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/Model/gate 
+Parameters: Port, IconDisplay, OutputFunctionCall, OutMin, OutMax, OutDataTypeStr, LockScale, BusOutputAsStruct, BusVirtuality, Unit, PortDimensions, VarSizeSig, SampleTime, SignalType, LatchByDelayingOutsideSignal, LatchInputForFeedbackSignals, Interpolate, InputConnect, DataMode, MessageQueueUseDefaultAttributes, MessageQueueCapacity, MessageQueueType, MessageQueueOverwriting, EventTriggers
+  Port = 1
+  IconDisplay = Port number
+  OutputFunctionCall = off
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: auto
+  LockScale = off
+  BusOutputAsStruct = off
+  BusVirtuality = inherit
+  Unit = inherit
+  PortDimensions = -1
+  VarSizeSig = Inherit
+  SampleTime = -1
+  SignalType = auto
+  LatchByDelayingOutsideSignal = off
+  LatchInputForFeedbackSignals = off
+  Interpolate = on
+  InputConnect = 
+  DataMode = inherit
+  MessageQueueUseDefaultAttributes = on
+  MessageQueueCapacity = 1
+  MessageQueueType = LIFO
+  MessageQueueOverwriting = on
+  EventTriggers = 
+20. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/Model/Uswitch
+Parameters: Port, IconDisplay, OutputFunctionCall, OutMin, OutMax, OutDataTypeStr, LockScale, BusOutputAsStruct, BusVirtuality, Unit, PortDimensions, VarSizeSig, SampleTime, SignalType, LatchByDelayingOutsideSignal, LatchInputForFeedbackSignals, Interpolate, InputConnect, DataMode, MessageQueueUseDefaultAttributes, MessageQueueCapacity, MessageQueueType, MessageQueueOverwriting, EventTriggers
+  Port = 2
+  IconDisplay = Port number
+  OutputFunctionCall = off
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: auto
+  LockScale = off
+  BusOutputAsStruct = off
+  BusVirtuality = inherit
+  Unit = inherit
+  PortDimensions = -1
+  VarSizeSig = Inherit
+  SampleTime = Ts
+  SignalType = auto
+  LatchByDelayingOutsideSignal = off
+  LatchInputForFeedbackSignals = off
+  Interpolate = on
+  InputConnect = 
+  DataMode = inherit
+  MessageQueueUseDefaultAttributes = on
+  MessageQueueCapacity = 1
+  MessageQueueType = LIFO
+  MessageQueueOverwriting = on
+  EventTriggers = 
+21. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/Model/C4
+Parameters: Value, VectorParams1D, OutMin, OutMax, OutDataTypeStr, LockScale, SampleTime, FramePeriod
+  Value = BR.com
+  VectorParams1D = on
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: Inherit from 'Constant value'
+  LockScale = off
+  SampleTime = Ts
+  FramePeriod = inf
+22. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/Model/Data Type 
+Conversion
+Parameters: OutMin, OutMax, OutDataTypeStr, LockScale, ConvertRealWorld, RndMeth, SaturateOnIntegerOverflow, SampleTime
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = double
+  LockScale = off
+  ConvertRealWorld = Real World Value (RWV)
+  RndMeth = Zero
+  SaturateOnIntegerOverflow = on
+  SampleTime = -1
+23. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/Model/Switch3
+Parameters: Criteria, Threshold, InputSameDT, OutMin, OutMax, OutDataTypeStr, LockScale, RndMeth, SaturateOnIntegerOverflow, ZeroCross, SampleTime, AllowDiffInputSizes
+  Criteria = u2 >= Threshold
+  Threshold = 0.5
+  InputSameDT = on
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: Inherit via internal rule
+  LockScale = off
+  RndMeth = Floor
+  SaturateOnIntegerOverflow = off
+  ZeroCross = off
+  SampleTime = -1
+  AllowDiffInputSizes = off
+24. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/Model/This signal is not used
+25. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/Model/Timer
+Parameters: t, e, Ts
+  t = BR.SwitchingTimes
+  e = BR.switchings
+  Ts = Ts
+26. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/Model/Timer/Digital Clock
+Parameters: SampleTime
+  SampleTime = Ts
+27. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/Model/Timer/Look-Up
+Table
+Parameters: InputValues, Table, LookUpMeth, OutMin, OutMax, OutDataTypeStr, LockScale, RndMeth, SaturateOnIntegerOverflow, SampleTime
+  InputValues = tv
+  Table = opv
+  LookUpMeth = Interpolation-Extrapolation
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: Same as input
+  LockScale = off
+  RndMeth = Floor
+  SaturateOnIntegerOverflow = on
+  SampleTime = -1
+28. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/Model/Timer/Out
+Parameters: Port, SignalName, SignalObject, StorageClass, IconDisplay, OutputFunctionCall, OutMin, OutMax, OutDataTypeStr, LockScale, BusOutputAsStruct, BusVirtuality, DataMode, Unit, PortDimensions, VarSizeSig, SampleTime, SignalType, EnsureOutportIsVirtual, OutputWhenDisabled, InitialOutput, MustResolveToSignalObject, OutputWhenUnConnected, OutputWhenUnconnectedValue, VectorParamsAs1DForOutWhenUnconnected
+  Port = 1
+  SignalName = 
+  SignalObject = 
+  StorageClass = Auto
+  IconDisplay = Port number
+  OutputFunctionCall = off
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: auto
+  LockScale = off
+  BusOutputAsStruct = off
+  BusVirtuality = inherit
+  DataMode = inherit
+  Unit = inherit
+  PortDimensions = -1
+  VarSizeSig = Inherit
+  SampleTime = -1
+  SignalType = auto
+  EnsureOutportIsVirtual = off
+  OutputWhenDisabled = held
+  InitialOutput = []
+  MustResolveToSignalObject = off
+  OutputWhenUnConnected = off
+  OutputWhenUnconnectedValue = 0
+  VectorParamsAs1DForOutWhenUnconnected = on
+29. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/Model/gate
+Parameters: Port, SignalName, SignalObject, StorageClass, IconDisplay, OutputFunctionCall, OutMin, OutMax, OutDataTypeStr, LockScale, BusOutputAsStruct, BusVirtuality, DataMode, Unit, PortDimensions, VarSizeSig, SampleTime, SignalType, EnsureOutportIsVirtual, OutputWhenDisabled, InitialOutput, MustResolveToSignalObject, OutputWhenUnConnected, OutputWhenUnconnectedValue, VectorParamsAs1DForOutWhenUnconnected
+  Port = 1
+  SignalName = 
+  SignalObject = 
+  StorageClass = Auto
+  IconDisplay = Port number
+  OutputFunctionCall = off
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: auto
+  LockScale = off
+  BusOutputAsStruct = off
+  BusVirtuality = inherit
+  DataMode = inherit
+  Unit = inherit
+  PortDimensions = -1
+  VarSizeSig = Inherit
+  SampleTime = Ts
+  SignalType = auto
+  EnsureOutportIsVirtual = off
+  OutputWhenDisabled = held
+  InitialOutput = []
+  MustResolveToSignalObject = off
+  OutputWhenUnConnected = off
+  OutputWhenUnconnectedValue = 0
+  VectorParamsAs1DForOutWhenUnconnected = on
+30. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/Status
+Parameters: GotoTag, IconDisplay
+  GotoTag = T63_5832_6573830387696
+  IconDisplay = Tag
+31. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/Uswitch
+Parameters: GotoTag, IconDisplay
+  GotoTag = T64_5931_6734719645494
+  IconDisplay = Tag
+32. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/1
+Parameters: Port, Side, ConnectionType, SampleTime
+  Port = 1
+  Side = Left
+  ConnectionType = Inherit: auto
+  SampleTime = -1
+33. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault A/2
+Parameters: Port, Side, ConnectionType, SampleTime
+  Port = 2
+  Side = Right
+  ConnectionType = Inherit: auto
+  SampleTime = -1
+34. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B
+Parameters: InitialState, SwitchingTimes, External, BreakerResistance, SnubberResistance, SnubberCapacitance, Measurements, MoreParameters, NoBreakLoop
+  InitialState = InitialStates(1)*FaultB
+  SwitchingTimes = [ 1/60  5/60 ]
+  External = on
+  BreakerResistance = FaultResistance
+  SnubberResistance = SnubberResistance
+  SnubberCapacitance = SnubberCapacitance
+  Measurements = None
+  MoreParameters = off
+  NoBreakLoop = off
+35. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/c
+Parameters: Port, IconDisplay, OutputFunctionCall, OutMin, OutMax, OutDataTypeStr, LockScale, BusOutputAsStruct, BusVirtuality, Unit, PortDimensions, VarSizeSig, SampleTime, SignalType, LatchByDelayingOutsideSignal, LatchInputForFeedbackSignals, Interpolate, InputConnect, DataMode, MessageQueueUseDefaultAttributes, MessageQueueCapacity, MessageQueueType, MessageQueueOverwriting, EventTriggers
+  Port = 1
+  IconDisplay = Port number
+  OutputFunctionCall = off
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: auto
+  LockScale = off
+  BusOutputAsStruct = off
+  BusVirtuality = inherit
+  Unit = inherit
+  PortDimensions = -1
+  VarSizeSig = Inherit
+  SampleTime = -1
+  SignalType = auto
+  LatchByDelayingOutsideSignal = off
+  LatchInputForFeedbackSignals = off
+  Interpolate = on
+  InputConnect = 
+  DataMode = inherit
+  MessageQueueUseDefaultAttributes = on
+  MessageQueueCapacity = 1
+  MessageQueueType = LIFO
+  MessageQueueOverwriting = on
+  EventTriggers = 
+36. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/Breaker
+Parameters: PhysicalDomain, SubClassName, LeftPortType, RightPortType
+  PhysicalDomain = powersysdomain
+  SubClassName = unknown
+  LeftPortType = p1
+  RightPortType = p1
+37. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/Goto
+Parameters: GotoTag, IconDisplay, TagVisibility
+  GotoTag = T61_5598_5730859299295
+  IconDisplay = Tag
+  TagVisibility = global
+38. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/ITAIL
+39. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/Model
+Parameters: ShowPortLabels, BlockChoice, TemplateBlock, MemberBlocks, Permissions, ErrorFcn, PermitHierarchicalResolution, TreatAsAtomicUnit, ShowSubsystemReinitializePorts, MinAlgLoopOccurrences, ScheduleAs, PartitionName, SystemSampleTime, SetExecutionDomain, ExecutionDomainType, RTWSystemCode, RTWFcnNameOpts, RTWFcnName, RTWFileNameOpts, RTWFileName, FunctionInterfaceSpec, FunctionWithSeparateData, RTWMemSecFuncInitTerm, RTWMemSecFuncExecute, RTWMemSecDataConstants, RTWMemSecDataInternal, RTWMemSecDataParameters, IsSubsystemVirtual, Variant, VariantChoicesSpecifier, VariantChoicesEnumeration, VariantControlVariable, VariantChoices, VariantControlMode, VariantControl, LabelModeActiveChoice, VariantActivationTime, AllowZeroVariantControls, PropagateVariantConditions, AllowFlexibleInterface, TreatAsGroupedWhenPropagatingVariantConditions, ReferencedSubsystem, Latency, AutoFrameSizeCalculation
+  ShowPortLabels = FromPortIcon
+  BlockChoice = 
+  TemplateBlock = 
+  MemberBlocks = 
+  Permissions = ReadWrite
+  ErrorFcn = 
+  PermitHierarchicalResolution = All
+  TreatAsAtomicUnit = off
+  ShowSubsystemReinitializePorts = off
+  MinAlgLoopOccurrences = off
+  ScheduleAs = Sample time
+  PartitionName = 
+  SystemSampleTime = -1
+  SetExecutionDomain = off
+  ExecutionDomainType = Deduce
+  RTWSystemCode = Auto
+  RTWFcnNameOpts = Auto
+  RTWFcnName = 
+  RTWFileNameOpts = Auto
+  RTWFileName = 
+  FunctionInterfaceSpec = void_void
+  FunctionWithSeparateData = off
+  RTWMemSecFuncInitTerm = Inherit from model
+  RTWMemSecFuncExecute = Inherit from model
+  RTWMemSecDataConstants = Inherit from model
+  RTWMemSecDataInternal = Inherit from model
+  RTWMemSecDataParameters = Inherit from model
+  IsSubsystemVirtual = on
+  Variant = off
+  VariantChoicesSpecifier = 
+  VariantChoicesEnumeration = 
+  VariantControlVariable = 
+  VariantChoices = 
+  VariantControlMode = expression
+  VariantControl = 
+  LabelModeActiveChoice = 
+  VariantActivationTime = update diagram
+  AllowZeroVariantControls = off
+  PropagateVariantConditions = off
+  AllowFlexibleInterface = on
+  TreatAsGroupedWhenPropagatingVariantConditions = on
+  ReferencedSubsystem = 
+  Latency = 0
+  AutoFrameSizeCalculation = off
+40. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/Model/gate 
+Parameters: Port, IconDisplay, OutputFunctionCall, OutMin, OutMax, OutDataTypeStr, LockScale, BusOutputAsStruct, BusVirtuality, Unit, PortDimensions, VarSizeSig, SampleTime, SignalType, LatchByDelayingOutsideSignal, LatchInputForFeedbackSignals, Interpolate, InputConnect, DataMode, MessageQueueUseDefaultAttributes, MessageQueueCapacity, MessageQueueType, MessageQueueOverwriting, EventTriggers
+  Port = 1
+  IconDisplay = Port number
+  OutputFunctionCall = off
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: auto
+  LockScale = off
+  BusOutputAsStruct = off
+  BusVirtuality = inherit
+  Unit = inherit
+  PortDimensions = -1
+  VarSizeSig = Inherit
+  SampleTime = -1
+  SignalType = auto
+  LatchByDelayingOutsideSignal = off
+  LatchInputForFeedbackSignals = off
+  Interpolate = on
+  InputConnect = 
+  DataMode = inherit
+  MessageQueueUseDefaultAttributes = on
+  MessageQueueCapacity = 1
+  MessageQueueType = LIFO
+  MessageQueueOverwriting = on
+  EventTriggers = 
+41. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/Model/Uswitch
+Parameters: Port, IconDisplay, OutputFunctionCall, OutMin, OutMax, OutDataTypeStr, LockScale, BusOutputAsStruct, BusVirtuality, Unit, PortDimensions, VarSizeSig, SampleTime, SignalType, LatchByDelayingOutsideSignal, LatchInputForFeedbackSignals, Interpolate, InputConnect, DataMode, MessageQueueUseDefaultAttributes, MessageQueueCapacity, MessageQueueType, MessageQueueOverwriting, EventTriggers
+  Port = 2
+  IconDisplay = Port number
+  OutputFunctionCall = off
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: auto
+  LockScale = off
+  BusOutputAsStruct = off
+  BusVirtuality = inherit
+  Unit = inherit
+  PortDimensions = -1
+  VarSizeSig = Inherit
+  SampleTime = Ts
+  SignalType = auto
+  LatchByDelayingOutsideSignal = off
+  LatchInputForFeedbackSignals = off
+  Interpolate = on
+  InputConnect = 
+  DataMode = inherit
+  MessageQueueUseDefaultAttributes = on
+  MessageQueueCapacity = 1
+  MessageQueueType = LIFO
+  MessageQueueOverwriting = on
+  EventTriggers = 
+42. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/Model/C4
+Parameters: Value, VectorParams1D, OutMin, OutMax, OutDataTypeStr, LockScale, SampleTime, FramePeriod
+  Value = BR.com
+  VectorParams1D = on
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: Inherit from 'Constant value'
+  LockScale = off
+  SampleTime = Ts
+  FramePeriod = inf
+43. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/Model/Data Type 
+Conversion
+Parameters: OutMin, OutMax, OutDataTypeStr, LockScale, ConvertRealWorld, RndMeth, SaturateOnIntegerOverflow, SampleTime
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = double
+  LockScale = off
+  ConvertRealWorld = Real World Value (RWV)
+  RndMeth = Zero
+  SaturateOnIntegerOverflow = on
+  SampleTime = -1
+44. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/Model/Switch3
+Parameters: Criteria, Threshold, InputSameDT, OutMin, OutMax, OutDataTypeStr, LockScale, RndMeth, SaturateOnIntegerOverflow, ZeroCross, SampleTime, AllowDiffInputSizes
+  Criteria = u2 >= Threshold
+  Threshold = 0.5
+  InputSameDT = on
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: Inherit via internal rule
+  LockScale = off
+  RndMeth = Floor
+  SaturateOnIntegerOverflow = off
+  ZeroCross = off
+  SampleTime = -1
+  AllowDiffInputSizes = off
+45. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/Model/This signal is not used
+46. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/Model/Timer
+Parameters: t, e, Ts
+  t = BR.SwitchingTimes
+  e = BR.switchings
+  Ts = Ts
+47. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/Model/Timer/Digital Clock
+Parameters: SampleTime
+  SampleTime = Ts
+48. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/Model/Timer/Look-Up
+Table
+Parameters: InputValues, Table, LookUpMeth, OutMin, OutMax, OutDataTypeStr, LockScale, RndMeth, SaturateOnIntegerOverflow, SampleTime
+  InputValues = tv
+  Table = opv
+  LookUpMeth = Interpolation-Extrapolation
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: Same as input
+  LockScale = off
+  RndMeth = Floor
+  SaturateOnIntegerOverflow = on
+  SampleTime = -1
+49. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/Model/Timer/Out
+Parameters: Port, SignalName, SignalObject, StorageClass, IconDisplay, OutputFunctionCall, OutMin, OutMax, OutDataTypeStr, LockScale, BusOutputAsStruct, BusVirtuality, DataMode, Unit, PortDimensions, VarSizeSig, SampleTime, SignalType, EnsureOutportIsVirtual, OutputWhenDisabled, InitialOutput, MustResolveToSignalObject, OutputWhenUnConnected, OutputWhenUnconnectedValue, VectorParamsAs1DForOutWhenUnconnected
+  Port = 1
+  SignalName = 
+  SignalObject = 
+  StorageClass = Auto
+  IconDisplay = Port number
+  OutputFunctionCall = off
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: auto
+  LockScale = off
+  BusOutputAsStruct = off
+  BusVirtuality = inherit
+  DataMode = inherit
+  Unit = inherit
+  PortDimensions = -1
+  VarSizeSig = Inherit
+  SampleTime = -1
+  SignalType = auto
+  EnsureOutportIsVirtual = off
+  OutputWhenDisabled = held
+  InitialOutput = []
+  MustResolveToSignalObject = off
+  OutputWhenUnConnected = off
+  OutputWhenUnconnectedValue = 0
+  VectorParamsAs1DForOutWhenUnconnected = on
+50. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/Model/gate
+Parameters: Port, SignalName, SignalObject, StorageClass, IconDisplay, OutputFunctionCall, OutMin, OutMax, OutDataTypeStr, LockScale, BusOutputAsStruct, BusVirtuality, DataMode, Unit, PortDimensions, VarSizeSig, SampleTime, SignalType, EnsureOutportIsVirtual, OutputWhenDisabled, InitialOutput, MustResolveToSignalObject, OutputWhenUnConnected, OutputWhenUnconnectedValue, VectorParamsAs1DForOutWhenUnconnected
+  Port = 1
+  SignalName = 
+  SignalObject = 
+  StorageClass = Auto
+  IconDisplay = Port number
+  OutputFunctionCall = off
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: auto
+  LockScale = off
+  BusOutputAsStruct = off
+  BusVirtuality = inherit
+  DataMode = inherit
+  Unit = inherit
+  PortDimensions = -1
+  VarSizeSig = Inherit
+  SampleTime = Ts
+  SignalType = auto
+  EnsureOutportIsVirtual = off
+  OutputWhenDisabled = held
+  InitialOutput = []
+  MustResolveToSignalObject = off
+  OutputWhenUnConnected = off
+  OutputWhenUnconnectedValue = 0
+  VectorParamsAs1DForOutWhenUnconnected = on
+51. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/Status
+Parameters: GotoTag, IconDisplay
+  GotoTag = T63_5833_6576159259944
+  IconDisplay = Tag
+52. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/Uswitch
+Parameters: GotoTag, IconDisplay
+  GotoTag = T64_5932_6736853427302
+  IconDisplay = Tag
+53. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/1
+Parameters: Port, Side, ConnectionType, SampleTime
+  Port = 1
+  Side = Left
+  ConnectionType = Inherit: auto
+  SampleTime = -1
+54. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault B/2
+Parameters: Port, Side, ConnectionType, SampleTime
+  Port = 2
+  Side = Right
+  ConnectionType = Inherit: auto
+  SampleTime = -1
+55. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C
+Parameters: InitialState, SwitchingTimes, External, BreakerResistance, SnubberResistance, SnubberCapacitance, Measurements, MoreParameters, NoBreakLoop
+  InitialState = InitialStates(1)*FaultC
+  SwitchingTimes = [ 1/60  5/60 ]
+  External = on
+  BreakerResistance = FaultResistance
+  SnubberResistance = SnubberResistance
+  SnubberCapacitance = SnubberCapacitance
+  Measurements = None
+  MoreParameters = off
+  NoBreakLoop = off
+56. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/c
+Parameters: Port, IconDisplay, OutputFunctionCall, OutMin, OutMax, OutDataTypeStr, LockScale, BusOutputAsStruct, BusVirtuality, Unit, PortDimensions, VarSizeSig, SampleTime, SignalType, LatchByDelayingOutsideSignal, LatchInputForFeedbackSignals, Interpolate, InputConnect, DataMode, MessageQueueUseDefaultAttributes, MessageQueueCapacity, MessageQueueType, MessageQueueOverwriting, EventTriggers
+  Port = 1
+  IconDisplay = Port number
+  OutputFunctionCall = off
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: auto
+  LockScale = off
+  BusOutputAsStruct = off
+  BusVirtuality = inherit
+  Unit = inherit
+  PortDimensions = -1
+  VarSizeSig = Inherit
+  SampleTime = -1
+  SignalType = auto
+  LatchByDelayingOutsideSignal = off
+  LatchInputForFeedbackSignals = off
+  Interpolate = on
+  InputConnect = 
+  DataMode = inherit
+  MessageQueueUseDefaultAttributes = on
+  MessageQueueCapacity = 1
+  MessageQueueType = LIFO
+  MessageQueueOverwriting = on
+  EventTriggers = 
+57. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/Breaker
+Parameters: PhysicalDomain, SubClassName, LeftPortType, RightPortType
+  PhysicalDomain = powersysdomain
+  SubClassName = unknown
+  LeftPortType = p1
+  RightPortType = p1
+58. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/Goto
+Parameters: GotoTag, IconDisplay, TagVisibility
+  GotoTag = T61_5599_5733892750798
+  IconDisplay = Tag
+  TagVisibility = global
+59. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/ITAIL
+60. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/Model
+Parameters: ShowPortLabels, BlockChoice, TemplateBlock, MemberBlocks, Permissions, ErrorFcn, PermitHierarchicalResolution, TreatAsAtomicUnit, ShowSubsystemReinitializePorts, MinAlgLoopOccurrences, ScheduleAs, PartitionName, SystemSampleTime, SetExecutionDomain, ExecutionDomainType, RTWSystemCode, RTWFcnNameOpts, RTWFcnName, RTWFileNameOpts, RTWFileName, FunctionInterfaceSpec, FunctionWithSeparateData, RTWMemSecFuncInitTerm, RTWMemSecFuncExecute, RTWMemSecDataConstants, RTWMemSecDataInternal, RTWMemSecDataParameters, IsSubsystemVirtual, Variant, VariantChoicesSpecifier, VariantChoicesEnumeration, VariantControlVariable, VariantChoices, VariantControlMode, VariantControl, LabelModeActiveChoice, VariantActivationTime, AllowZeroVariantControls, PropagateVariantConditions, AllowFlexibleInterface, TreatAsGroupedWhenPropagatingVariantConditions, ReferencedSubsystem, Latency, AutoFrameSizeCalculation
+  ShowPortLabels = FromPortIcon
+  BlockChoice = 
+  TemplateBlock = 
+  MemberBlocks = 
+  Permissions = ReadWrite
+  ErrorFcn = 
+  PermitHierarchicalResolution = All
+  TreatAsAtomicUnit = off
+  ShowSubsystemReinitializePorts = off
+  MinAlgLoopOccurrences = off
+  ScheduleAs = Sample time
+  PartitionName = 
+  SystemSampleTime = -1
+  SetExecutionDomain = off
+  ExecutionDomainType = Deduce
+  RTWSystemCode = Auto
+  RTWFcnNameOpts = Auto
+  RTWFcnName = 
+  RTWFileNameOpts = Auto
+  RTWFileName = 
+  FunctionInterfaceSpec = void_void
+  FunctionWithSeparateData = off
+  RTWMemSecFuncInitTerm = Inherit from model
+  RTWMemSecFuncExecute = Inherit from model
+  RTWMemSecDataConstants = Inherit from model
+  RTWMemSecDataInternal = Inherit from model
+  RTWMemSecDataParameters = Inherit from model
+  IsSubsystemVirtual = on
+  Variant = off
+  VariantChoicesSpecifier = 
+  VariantChoicesEnumeration = 
+  VariantControlVariable = 
+  VariantChoices = 
+  VariantControlMode = expression
+  VariantControl = 
+  LabelModeActiveChoice = 
+  VariantActivationTime = update diagram
+  AllowZeroVariantControls = off
+  PropagateVariantConditions = off
+  AllowFlexibleInterface = on
+  TreatAsGroupedWhenPropagatingVariantConditions = on
+  ReferencedSubsystem = 
+  Latency = 0
+  AutoFrameSizeCalculation = off
+61. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/Model/gate 
+Parameters: Port, IconDisplay, OutputFunctionCall, OutMin, OutMax, OutDataTypeStr, LockScale, BusOutputAsStruct, BusVirtuality, Unit, PortDimensions, VarSizeSig, SampleTime, SignalType, LatchByDelayingOutsideSignal, LatchInputForFeedbackSignals, Interpolate, InputConnect, DataMode, MessageQueueUseDefaultAttributes, MessageQueueCapacity, MessageQueueType, MessageQueueOverwriting, EventTriggers
+  Port = 1
+  IconDisplay = Port number
+  OutputFunctionCall = off
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: auto
+  LockScale = off
+  BusOutputAsStruct = off
+  BusVirtuality = inherit
+  Unit = inherit
+  PortDimensions = -1
+  VarSizeSig = Inherit
+  SampleTime = -1
+  SignalType = auto
+  LatchByDelayingOutsideSignal = off
+  LatchInputForFeedbackSignals = off
+  Interpolate = on
+  InputConnect = 
+  DataMode = inherit
+  MessageQueueUseDefaultAttributes = on
+  MessageQueueCapacity = 1
+  MessageQueueType = LIFO
+  MessageQueueOverwriting = on
+  EventTriggers = 
+62. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/Model/Uswitch
+Parameters: Port, IconDisplay, OutputFunctionCall, OutMin, OutMax, OutDataTypeStr, LockScale, BusOutputAsStruct, BusVirtuality, Unit, PortDimensions, VarSizeSig, SampleTime, SignalType, LatchByDelayingOutsideSignal, LatchInputForFeedbackSignals, Interpolate, InputConnect, DataMode, MessageQueueUseDefaultAttributes, MessageQueueCapacity, MessageQueueType, MessageQueueOverwriting, EventTriggers
+  Port = 2
+  IconDisplay = Port number
+  OutputFunctionCall = off
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: auto
+  LockScale = off
+  BusOutputAsStruct = off
+  BusVirtuality = inherit
+  Unit = inherit
+  PortDimensions = -1
+  VarSizeSig = Inherit
+  SampleTime = Ts
+  SignalType = auto
+  LatchByDelayingOutsideSignal = off
+  LatchInputForFeedbackSignals = off
+  Interpolate = on
+  InputConnect = 
+  DataMode = inherit
+  MessageQueueUseDefaultAttributes = on
+  MessageQueueCapacity = 1
+  MessageQueueType = LIFO
+  MessageQueueOverwriting = on
+  EventTriggers = 
+63. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/Model/C4
+Parameters: Value, VectorParams1D, OutMin, OutMax, OutDataTypeStr, LockScale, SampleTime, FramePeriod
+  Value = BR.com
+  VectorParams1D = on
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: Inherit from 'Constant value'
+  LockScale = off
+  SampleTime = Ts
+  FramePeriod = inf
+64. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/Model/Data Type 
+Conversion
+Parameters: OutMin, OutMax, OutDataTypeStr, LockScale, ConvertRealWorld, RndMeth, SaturateOnIntegerOverflow, SampleTime
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = double
+  LockScale = off
+  ConvertRealWorld = Real World Value (RWV)
+  RndMeth = Zero
+  SaturateOnIntegerOverflow = on
+  SampleTime = -1
+65. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/Model/Switch3
+Parameters: Criteria, Threshold, InputSameDT, OutMin, OutMax, OutDataTypeStr, LockScale, RndMeth, SaturateOnIntegerOverflow, ZeroCross, SampleTime, AllowDiffInputSizes
+  Criteria = u2 >= Threshold
+  Threshold = 0.5
+  InputSameDT = on
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: Inherit via internal rule
+  LockScale = off
+  RndMeth = Floor
+  SaturateOnIntegerOverflow = off
+  ZeroCross = off
+  SampleTime = -1
+  AllowDiffInputSizes = off
+66. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/Model/This signal is not used
+67. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/Model/Timer
+Parameters: t, e, Ts
+  t = BR.SwitchingTimes
+  e = BR.switchings
+  Ts = Ts
+68. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/Model/Timer/Digital Clock
+Parameters: SampleTime
+  SampleTime = Ts
+69. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/Model/Timer/Look-Up
+Table
+Parameters: InputValues, Table, LookUpMeth, OutMin, OutMax, OutDataTypeStr, LockScale, RndMeth, SaturateOnIntegerOverflow, SampleTime
+  InputValues = tv
+  Table = opv
+  LookUpMeth = Interpolation-Extrapolation
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: Same as input
+  LockScale = off
+  RndMeth = Floor
+  SaturateOnIntegerOverflow = on
+  SampleTime = -1
+70. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/Model/Timer/Out
+Parameters: Port, SignalName, SignalObject, StorageClass, IconDisplay, OutputFunctionCall, OutMin, OutMax, OutDataTypeStr, LockScale, BusOutputAsStruct, BusVirtuality, DataMode, Unit, PortDimensions, VarSizeSig, SampleTime, SignalType, EnsureOutportIsVirtual, OutputWhenDisabled, InitialOutput, MustResolveToSignalObject, OutputWhenUnConnected, OutputWhenUnconnectedValue, VectorParamsAs1DForOutWhenUnconnected
+  Port = 1
+  SignalName = 
+  SignalObject = 
+  StorageClass = Auto
+  IconDisplay = Port number
+  OutputFunctionCall = off
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: auto
+  LockScale = off
+  BusOutputAsStruct = off
+  BusVirtuality = inherit
+  DataMode = inherit
+  Unit = inherit
+  PortDimensions = -1
+  VarSizeSig = Inherit
+  SampleTime = -1
+  SignalType = auto
+  EnsureOutportIsVirtual = off
+  OutputWhenDisabled = held
+  InitialOutput = []
+  MustResolveToSignalObject = off
+  OutputWhenUnConnected = off
+  OutputWhenUnconnectedValue = 0
+  VectorParamsAs1DForOutWhenUnconnected = on
+71. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/Model/gate
+Parameters: Port, SignalName, SignalObject, StorageClass, IconDisplay, OutputFunctionCall, OutMin, OutMax, OutDataTypeStr, LockScale, BusOutputAsStruct, BusVirtuality, DataMode, Unit, PortDimensions, VarSizeSig, SampleTime, SignalType, EnsureOutportIsVirtual, OutputWhenDisabled, InitialOutput, MustResolveToSignalObject, OutputWhenUnConnected, OutputWhenUnconnectedValue, VectorParamsAs1DForOutWhenUnconnected
+  Port = 1
+  SignalName = 
+  SignalObject = 
+  StorageClass = Auto
+  IconDisplay = Port number
+  OutputFunctionCall = off
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: auto
+  LockScale = off
+  BusOutputAsStruct = off
+  BusVirtuality = inherit
+  DataMode = inherit
+  Unit = inherit
+  PortDimensions = -1
+  VarSizeSig = Inherit
+  SampleTime = Ts
+  SignalType = auto
+  EnsureOutportIsVirtual = off
+  OutputWhenDisabled = held
+  InitialOutput = []
+  MustResolveToSignalObject = off
+  OutputWhenUnConnected = off
+  OutputWhenUnconnectedValue = 0
+  VectorParamsAs1DForOutWhenUnconnected = on
+72. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/Status
+Parameters: GotoTag, IconDisplay
+  GotoTag = T63_5834_6578654997271
+  IconDisplay = Tag
+73. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/Uswitch
+Parameters: GotoTag, IconDisplay
+  GotoTag = T64_5933_6739151466922
+  IconDisplay = Tag
+74. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/1
+Parameters: Port, Side, ConnectionType, SampleTime
+  Port = 1
+  Side = Left
+  ConnectionType = Inherit: auto
+  SampleTime = -1
+75. Transmission_Line_132kV_Phase1/Three-Phase Fault/Fault C/2
+Parameters: Port, Side, ConnectionType, SampleTime
+  Port = 2
+  Side = Right
+  ConnectionType = Inherit: auto
+  SampleTime = -1
+76. Transmission_Line_132kV_Phase1/Three-Phase Fault/Ground1
+77. Transmission_Line_132kV_Phase1/Three-Phase Fault/Logical
+Operator1
+Parameters: Operator, Inputs, IconShape, AllPortsSameDT, OutDataTypeStr, SampleTime
+  Operator = AND
+  Inputs = 2
+  IconShape = rectangular
+  AllPortsSameDT = on
+  OutDataTypeStr = Inherit: Logical (see Configuration Parameters: Optimization)
+  SampleTime = -1
+78. Transmission_Line_132kV_Phase1/Three-Phase Fault/Logical
+Operator2
+Parameters: Operator, Inputs, IconShape, AllPortsSameDT, OutDataTypeStr, SampleTime
+  Operator = AND
+  Inputs = 2
+  IconShape = rectangular
+  AllPortsSameDT = on
+  OutDataTypeStr = Inherit: Logical (see Configuration Parameters: Optimization)
+  SampleTime = -1
+79. Transmission_Line_132kV_Phase1/Three-Phase Fault/Logical
+Operator3
+Parameters: Operator, Inputs, IconShape, AllPortsSameDT, OutDataTypeStr, SampleTime
+  Operator = AND
+  Inputs = 2
+  IconShape = rectangular
+  AllPortsSameDT = on
+  OutDataTypeStr = Inherit: Logical (see Configuration Parameters: Optimization)
+  SampleTime = -1
+80. Transmission_Line_132kV_Phase1/Three-Phase Fault/Rground
+Parameters: BranchType, Resistance, Inductance, SetiL0, InitialCurrent, Capacitance, Setx0, InitialVoltage, Measurements
+  BranchType = R
+  Resistance = GroundResistance
+  Inductance = 0
+  SetiL0 = off
+  InitialCurrent = 0
+  Capacitance = inf
+  Setx0 = off
+  InitialVoltage = 0
+  Measurements = None
+81. Transmission_Line_132kV_Phase1/Three-Phase Fault/Stair
+Generator
+Parameters: t, e, Ts
+  t = SwitchTimes
+  e = SwitchStatus
+  Ts = Ts
+82. Transmission_Line_132kV_Phase1/Three-Phase Fault/Stair
+Generator/Model
+Parameters: ShowPortLabels, BlockChoice, TemplateBlock, MemberBlocks, Permissions, ErrorFcn, PermitHierarchicalResolution, TreatAsAtomicUnit, ShowSubsystemReinitializePorts, MinAlgLoopOccurrences, ScheduleAs, PartitionName, SystemSampleTime, SetExecutionDomain, ExecutionDomainType, RTWSystemCode, RTWFcnNameOpts, RTWFcnName, RTWFileNameOpts, RTWFileName, FunctionInterfaceSpec, FunctionWithSeparateData, RTWMemSecFuncInitTerm, RTWMemSecFuncExecute, RTWMemSecDataConstants, RTWMemSecDataInternal, RTWMemSecDataParameters, IsSubsystemVirtual, Variant, VariantChoicesSpecifier, VariantChoicesEnumeration, VariantControlVariable, VariantChoices, VariantControlMode, VariantControl, LabelModeActiveChoice, VariantActivationTime, AllowZeroVariantControls, PropagateVariantConditions, AllowFlexibleInterface, TreatAsGroupedWhenPropagatingVariantConditions, ReferencedSubsystem, Latency, AutoFrameSizeCalculation
+  ShowPortLabels = FromPortIcon
+  BlockChoice = 
+  TemplateBlock = 
+  MemberBlocks = 
+  Permissions = ReadWrite
+  ErrorFcn = 
+  PermitHierarchicalResolution = All
+  TreatAsAtomicUnit = off
+  ShowSubsystemReinitializePorts = off
+  MinAlgLoopOccurrences = off
+  ScheduleAs = Sample time
+  PartitionName = 
+  SystemSampleTime = -1
+  SetExecutionDomain = off
+  ExecutionDomainType = Deduce
+  RTWSystemCode = Auto
+  RTWFcnNameOpts = Auto
+  RTWFcnName = 
+  RTWFileNameOpts = Auto
+  RTWFileName = 
+  FunctionInterfaceSpec = void_void
+  FunctionWithSeparateData = off
+  RTWMemSecFuncInitTerm = Inherit from model
+  RTWMemSecFuncExecute = Inherit from model
+  RTWMemSecDataConstants = Inherit from model
+  RTWMemSecDataInternal = Inherit from model
+  RTWMemSecDataParameters = Inherit from model
+  IsSubsystemVirtual = on
+  Variant = off
+  VariantChoicesSpecifier = 
+  VariantChoicesEnumeration = 
+  VariantControlVariable = 
+  VariantChoices = 
+  VariantControlMode = expression
+  VariantControl = 
+  LabelModeActiveChoice = 
+  VariantActivationTime = update diagram
+  AllowZeroVariantControls = off
+  PropagateVariantConditions = off
+  AllowFlexibleInterface = on
+  TreatAsGroupedWhenPropagatingVariantConditions = on
+  ReferencedSubsystem = 
+  Latency = 0
+  AutoFrameSizeCalculation = off
+83. Transmission_Line_132kV_Phase1/Three-Phase Fault/Stair
+Generator/Model/Digital Clock
+Parameters: SampleTime
+  SampleTime = Ts
+84. Transmission_Line_132kV_Phase1/Three-Phase Fault/Stair
+Generator/Model/Look-Up
+Table
+Parameters: InputValues, Table, LookUpMeth, OutMin, OutMax, OutDataTypeStr, LockScale, RndMeth, SaturateOnIntegerOverflow, SampleTime
+  InputValues = sps.tv
+  Table = sps.opv
+  LookUpMeth = Interpolation-Extrapolation
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: Same as input
+  LockScale = off
+  RndMeth = Floor
+  SaturateOnIntegerOverflow = on
+  SampleTime = Ts
+85. Transmission_Line_132kV_Phase1/Three-Phase Fault/Stair
+Generator/Model/Out
+Parameters: Port, SignalName, SignalObject, StorageClass, IconDisplay, OutputFunctionCall, OutMin, OutMax, OutDataTypeStr, LockScale, BusOutputAsStruct, BusVirtuality, DataMode, Unit, PortDimensions, VarSizeSig, SampleTime, SignalType, EnsureOutportIsVirtual, OutputWhenDisabled, InitialOutput, MustResolveToSignalObject, OutputWhenUnConnected, OutputWhenUnconnectedValue, VectorParamsAs1DForOutWhenUnconnected
+  Port = 1
+  SignalName = 
+  SignalObject = 
+  StorageClass = Auto
+  IconDisplay = Port number
+  OutputFunctionCall = off
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: auto
+  LockScale = off
+  BusOutputAsStruct = off
+  BusVirtuality = inherit
+  DataMode = inherit
+  Unit = inherit
+  PortDimensions = -1
+  VarSizeSig = Inherit
+  SampleTime = -1
+  SignalType = auto
+  EnsureOutportIsVirtual = off
+  OutputWhenDisabled = held
+  InitialOutput = 0
+  MustResolveToSignalObject = off
+  OutputWhenUnConnected = off
+  OutputWhenUnconnectedValue = 0
+  VectorParamsAs1DForOutWhenUnconnected = on
+86. Transmission_Line_132kV_Phase1/Three-Phase Fault/Stair
+Generator/Out
+Parameters: Port, SignalName, SignalObject, StorageClass, IconDisplay, OutputFunctionCall, OutMin, OutMax, OutDataTypeStr, LockScale, BusOutputAsStruct, BusVirtuality, DataMode, Unit, PortDimensions, VarSizeSig, SampleTime, SignalType, EnsureOutportIsVirtual, OutputWhenDisabled, InitialOutput, MustResolveToSignalObject, OutputWhenUnConnected, OutputWhenUnconnectedValue, VectorParamsAs1DForOutWhenUnconnected
+  Port = 1
+  SignalName = 
+  SignalObject = 
+  StorageClass = Auto
+  IconDisplay = Port number
+  OutputFunctionCall = off
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: auto
+  LockScale = off
+  BusOutputAsStruct = off
+  BusVirtuality = inherit
+  DataMode = inherit
+  Unit = inherit
+  PortDimensions = -1
+  VarSizeSig = Inherit
+  SampleTime = Ts
+  SignalType = auto
+  EnsureOutportIsVirtual = off
+  OutputWhenDisabled = held
+  InitialOutput = []
+  MustResolveToSignalObject = off
+  OutputWhenUnConnected = off
+  OutputWhenUnconnectedValue = 0
+  VectorParamsAs1DForOutWhenUnconnected = off
+87. Transmission_Line_132kV_Phase1/Three-Phase Fault/Switch3
+Parameters: Criteria, Threshold, InputSameDT, OutMin, OutMax, OutDataTypeStr, LockScale, RndMeth, SaturateOnIntegerOverflow, ZeroCross, SampleTime, AllowDiffInputSizes
+  Criteria = u2 >= Threshold
+  Threshold = 0.5
+  InputSameDT = on
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: Inherit via internal rule
+  LockScale = off
+  RndMeth = Floor
+  SaturateOnIntegerOverflow = off
+  ZeroCross = off
+  SampleTime = -1
+  AllowDiffInputSizes = off
+88. Transmission_Line_132kV_Phase1/Three-Phase Fault/ThreePhaseFault
+Parameters: PhysicalDomain, SubClassName, LeftPortType, RightPortType
+  PhysicalDomain = powersysdomain
+  SubClassName = unknown
+  LeftPortType = p1
+  RightPortType = p1
+89. Transmission_Line_132kV_Phase1/Three-Phase Fault/com
+Parameters: Value, VectorParams1D, OutMin, OutMax, OutDataTypeStr, LockScale, SampleTime, FramePeriod
+  Value = 1
+  VectorParams1D = on
+  OutMin = []
+  OutMax = []
+  OutDataTypeStr = Inherit: Inherit from 'Constant value'
+  LockScale = off
+  SampleTime = inf
+  FramePeriod = inf
+90. Transmission_Line_132kV_Phase1/Three-Phase Fault/A
+Parameters: Port, Side, ConnectionType, SampleTime
+  Port = 1
+  Side = Left
+  ConnectionType = Inherit: auto
+  SampleTime = -1
+91. Transmission_Line_132kV_Phase1/Three-Phase Fault/B
+Parameters: Port, Side, ConnectionType, SampleTime
+  Port = 2
+  Side = Left
+  ConnectionType = Inherit: auto
+  SampleTime = -1
+92. Transmission_Line_132kV_Phase1/Three-Phase Fault/C
+Parameters: Port, Side, ConnectionType, SampleTime
+  Port = 3
+  Side = Left
+  ConnectionType = Inherit: auto
+  SampleTime = -1
+
+TO WORKSPACE SIGNALS:
+Iabc_R
+Iabc_S
+Vabc_R
+Vabc_S
+
+SOLVER SETTINGS:
+SolverType = Fixed-step
+Solver = FixedStepDiscrete
+FixedStep = 2e-05
+MaxStep = auto
+StopTime = 0.40000000000000002
